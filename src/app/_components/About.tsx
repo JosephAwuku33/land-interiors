@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BedRoom from "../../../public/images/BedRoom.svg";
+import BedRoom from "../../../public/images/Bedroom.svg";
 import HomOffice from "../../../public/images/HomOffice.svg";
 import LivRoom from "../../../public/images/LivRoom.svg";
 import ModKitchen from "../../../public/images/ModKitchen.svg";
