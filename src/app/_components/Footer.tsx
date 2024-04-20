@@ -18,7 +18,7 @@ function Footer() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       id="footer"
-      className="w-full mt-auto bg-light-gray py-6"
+      className="w-full mt-auto bg-light-gray py-6 mb-0"
     >
       {/** Content on mobile screens */}
       <div className="sm:hidden flex flex-col items-center gap-2 mt-3 justify-center h-1/4">

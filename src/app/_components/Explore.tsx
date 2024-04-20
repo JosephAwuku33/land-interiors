@@ -9,7 +9,7 @@ function Explore() {
       {/**Content on mobile screens */}
       <div className="sm:hidden block h-96">
         <div className="relative w-full h-full">
-          <Image src={FurnitureRoom} alt="housing" fill objectFit="cover" />
+          <Image src={FurnitureRoom} alt="housing" fill style={{objectFit: "cover"}} />
           {/**Overlay */}
           <div className="bg-white bg-opacity-80 w-3/5 h-full absolute left-0 bottom-0 top-0">
             <div className="flex flex-col items-start justify-start p-4">
@@ -42,7 +42,7 @@ function Explore() {
       {/**Content on desktop screens */}
       <div className="hidden sm:block mt-4 h-96">
         <div className="relative w-full h-full">
-          <Image src={FurnitureRoom} alt="housing" fill objectFit="cover" />
+          <Image src={FurnitureRoom} alt="housing" fill style={{objectFit: "cover"}} />
           <div className="bg-white bg-opacity-80 w-1/4 h-full absolute left-8 ">
             <div className="flex flex-col items-center justify-center p-6">
               <h1 className="text-black font-bold text-xs">

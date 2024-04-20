@@ -14,7 +14,7 @@ function Studio() {
       {/**Content on mobile screens */}
       <div className="sm:hidden block h-96">
         <div className=" relative w-full h-3/4">
-          <Image src={Banner} alt="Banner" fill objectFit="cover" />
+          <Image src={Banner} alt="Banner" fill style={{objectFit: "cover"}} />
           {/**Overlay */}
           <div className="bg-white bg-opacity-80 w-full h-1/2 absolute bottom-0 p-4 mx-auto">
             <h1 className="text-xl font-extrabold text-black text-center mt-3">
