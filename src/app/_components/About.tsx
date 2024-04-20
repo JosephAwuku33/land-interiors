@@ -9,7 +9,7 @@ import ModKitchen from "../../../public/images/ModKitchen.svg";
 function About() {
   return (
     <section id="#about" className="container bg-white h-6/7 md:h-7/8 mt-4 p-6">
-      {/** Content on mobile screens */}
+      {/** Content on mobile screens or less*/}
       <div className="sm:hidden block ">
         <div className="flex items-start justify-start">
           <h1 className="text-black font-bold text-2xl">What we do</h1>
