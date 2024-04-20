@@ -3,6 +3,7 @@ import Footer from "./_components/Footer";
 import Studio from "./_components/Studio";
 import Banner from "./_components/Banner";
 import Explore from "./_components/Explore";
+import About from "./_components/About";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Studio />
       <Banner />
       <Explore />
+      <About />
       <Footer />
     </main>
   );
